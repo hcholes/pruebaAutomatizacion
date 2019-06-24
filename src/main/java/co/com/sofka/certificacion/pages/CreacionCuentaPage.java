@@ -148,6 +148,8 @@ public class CreacionCuentaPage extends PageObject {
 		case "December":
 			getDriver().findElement(By.xpath("//*[@id='months']/option[12]")).click();
 			break;
+		default:
+			
 		}
 
 	}
@@ -351,6 +353,7 @@ public class CreacionCuentaPage extends PageObject {
 		case "Wyoming":
 			getDriver().findElement(By.xpath("//*[@id='id_state']/option[53]")).click();
 			break;
+		default:
 		}
 
 	}
