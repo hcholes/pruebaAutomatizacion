@@ -24,8 +24,7 @@ public class IngresarTextoBuscarPage extends PageObject{
 	}
 
 	public boolean verificarBusqueda() {
-		return lblBusqueda.isVisible();
-		
+		return lblBusqueda.isVisible();	
 	}
 
 }

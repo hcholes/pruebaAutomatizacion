@@ -356,9 +356,7 @@ public class CreacionCuentaPage extends PageObject {
 	}
 
 	public void clickRegister() {
-
 		btnRegister.click();
-
 	}
 
 	public String capturaMensaje() {

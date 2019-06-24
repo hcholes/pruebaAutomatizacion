@@ -17,17 +17,14 @@ public class EntrarCuentaPage extends PageObject {
 
 	public void digitarEmail(String strEmail) {
 		txtEmail.sendKeys(strEmail);
-
 	}
 
 	public void digitarPass(String strPass) {
 		txtPass.sendKeys(strPass);
-
 	}
 
 	public void clickIngresar() {
 		btnIngresar.click();
-
 	}
 
 }

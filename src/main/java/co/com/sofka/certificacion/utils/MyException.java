@@ -9,9 +9,6 @@ public class MyException extends RuntimeException{
 	public static final  String EXCEP_LOG="Exception";
 	public static final String INTERRUPTED_LOG="Interrupted";
 	
-	
-	
-	
 	MyException() {
 		super();
 	}
