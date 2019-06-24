@@ -13,4 +13,4 @@ Feature: crear cuenta en la pagina web
 
     Examples: 
       | strEmail         |
-      | prueba5@gmail.com |
+      | prueba6@gmail.com |
