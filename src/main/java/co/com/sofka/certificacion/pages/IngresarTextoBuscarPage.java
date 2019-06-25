@@ -16,6 +16,7 @@ public class IngresarTextoBuscarPage extends PageObject{
 	
 	
 	public void ingresarArticuloABuscar(String articulo) {
+		getDriver().manage().window().maximize();
 		txtArticulo.type(articulo);
 	}
 	

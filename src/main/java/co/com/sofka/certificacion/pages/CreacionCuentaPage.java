@@ -66,6 +66,7 @@ public class CreacionCuentaPage extends PageObject {
 	private WebElementFacade selFlechaState;
 
 	public void clickOpcion() {
+		getDriver().manage().window().maximize();
 		btnLogin.click();
 	}
 
